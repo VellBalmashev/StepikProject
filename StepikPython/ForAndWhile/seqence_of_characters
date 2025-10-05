@@ -1,0 +1,20 @@
+'''Напишите программу, которая использует ровно три цикла for для печати следующей последовательности символов:
+AAA (6)
+BBBB (5)
+E
+TTTTT (9)
+G
+'''
+
+for i in range(6):
+    print('AAA')
+
+for i in range(5):
+    print('BBBB')
+
+print('E')
+
+for i in range(9):
+    print('TTTTT')
+    
+print('G')
