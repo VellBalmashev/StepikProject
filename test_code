@@ -1,0 +1,6 @@
+hi = str(input())
+
+if hi == 'Hello world!':
+    print('Nice, your lerning Python! Good luck!')
+else:
+    print('Hi! You dont lerning languch programm? This bad(')
