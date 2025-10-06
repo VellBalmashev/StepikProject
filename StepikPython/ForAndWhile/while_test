@@ -1,0 +1,6 @@
+# This file test for Linux
+
+n = int(input())
+
+while n in range(10):
+    print(n)
