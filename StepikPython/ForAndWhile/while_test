@@ -1,9 +1,42 @@
 # This file test for Linux
 
-n = int(input())
+# n = int(input())
 
-while n in range(10):
-    print(n)
+# while n in range(10):
+#     print(n)
 
-for i in range(n):
-    print(i)
+# for i in range(n):
+#     print(i)
+
+# i = 0
+
+# while i < 10:
+#     print('Hello')
+#     i += 1
+
+# num = int(input())
+
+# while num != -1:
+#     print('The square of your number is:', num * num)
+#     num = int(input())
+
+# text = input()
+# total = 0
+
+# while text != 'stop':
+#     total += int(text)
+#     text = input()
+# print('Sum of number is:', total)
+
+i = 5
+while i <= 11:
+    print('Python awesome!')
+    i += 1
+
+i = 7
+a = 5
+while i < 11:
+    a += i
+    i += 2
+
+print(a)
