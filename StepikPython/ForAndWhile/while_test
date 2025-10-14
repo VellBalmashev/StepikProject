@@ -70,5 +70,15 @@
 # else:
 #     print('Цикл завершен.')
 
+# for i in range(4):
+#     print(i, end='*')
+
 for i in range(4):
-    print(i, end='*')
+    j = i + 1
+    print(i, j)
+
+for i in range(27):
+    j = i + 1
+    print(i)
+
+print(j)
