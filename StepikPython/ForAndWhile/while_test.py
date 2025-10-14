@@ -70,5 +70,12 @@
 # else:
 #     print('Цикл завершен.')
 
-for i in range(4):
-    print(i, end='*')
+# for i in range(4):
+#     print(i, end='*')
+
+for seconds in range(60):
+    print(seconds)
+
+    for minutes in range(60):
+        for seconds in range(60):
+            print(minutes, ':', seconds)
