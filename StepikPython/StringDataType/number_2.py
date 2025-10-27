@@ -8,3 +8,10 @@
 Программа должна вывести текст в соответствии с условием задачи.'''
 
 string = input()
+s = 'No number'
+
+for i in range(len(str(string))):
+    if string[i] in '0123456789':
+        s = 'Number'
+        break
+print(s)
