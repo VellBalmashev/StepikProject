@@ -8,3 +8,10 @@
 Программа должна вывести текст в соответствии с условием задачи.'''
 
 string = input()
+numerate = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+for i in range(len(string)):
+    if string[i] == numerate:
+        print('Yes')
+    else:
+        print('No')
